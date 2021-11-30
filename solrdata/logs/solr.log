@@ -1,0 +1,84 @@
+2021-11-30 23:29:53.392 INFO  (main) [   ] o.e.j.u.log Logging initialized @895ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-11-30 23:29:53.583 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.13+8
+2021-11-30 23:29:53.597 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///opt/solr-8.11.0/server/contexts/] at interval 0
+2021-11-30 23:29:53.864 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2021-11-30 23:29:53.877 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2021-11-30 23:29:53.877 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2021-11-30 23:29:53.879 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2021-11-30 23:29:53.939 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2021-11-30 23:29:53.945 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.11.0
+2021-11-30 23:29:53.945 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2021-11-30 23:29:53.945 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /opt/solr
+2021-11-30 23:29:53.945 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2021-11-30T23:29:53.945755Z
+2021-11-30 23:29:53.984 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: /var/solr/data
+2021-11-30 23:29:53.985 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /var/solr/data/solr.xml
+2021-11-30 23:29:54.078 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@72cc7e6f, but no JMX reporters were configured - adding default JMX reporter.
+2021-11-30 23:29:54.491 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2021-11-30 23:29:54.594 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@7e736350[provider=null,keyStore=null,trustStore=null]
+2021-11-30 23:29:54.594 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@7e736350[provider=null,keyStore=null,trustStore=null]
+2021-11-30 23:29:54.709 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@102efc59[provider=null,keyStore=null,trustStore=null]
+2021-11-30 23:29:54.709 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@102efc59[provider=null,keyStore=null,trustStore=null]
+2021-11-30 23:29:54.738 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2021-11-30 23:29:54.832 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+2021-11-30 23:29:54.838 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2021-11-30 23:29:54.903 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@72cc7e6f
+2021-11-30 23:29:54.904 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@72cc7e6f
+2021-11-30 23:29:54.905 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@72cc7e6f
+2021-11-30 23:29:54.942 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /var/solr/data
+2021-11-30 23:29:54.942 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [mycore]
+2021-11-30 23:29:54.987 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@1c55f277{/solr,file:///opt/solr-8.11.0/server/solr-webapp/webapp/,AVAILABLE}{/opt/solr-8.11.0/server/solr-webapp/webapp}
+2021-11-30 23:29:54.994 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.11.0
+2021-11-30 23:29:55.003 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@7c1e2a2d{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2021-11-30 23:29:55.004 INFO  (main) [   ] o.e.j.s.Server Started @2508ms
+2021-11-30 23:29:55.021 WARN  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2021-11-30 23:29:55.064 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.s.IndexSchema Schema name=default-config
+2021-11-30 23:29:55.462 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-11-30 23:29:55.626 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.c.CoreContainer Creating SolrCore 'mycore' using configuration from instancedir /var/solr/data/mycore, trusted=true
+2021-11-30 23:29:55.642 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.mycore' (registry 'solr.core.mycore') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@72cc7e6f
+2021-11-30 23:29:55.651 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.c.SolrCore [[mycore] ] Opening new SolrCore at [/var/solr/data/mycore], dataDir=[/var/solr/data/mycore/data/]
+2021-11-30 23:29:56.078 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-11-30 23:29:56.078 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-11-30 23:29:56.123 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-11-30 23:29:56.123 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-11-30 23:29:56.314 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /var/solr/data/mycore/conf
+2021-11-30 23:29:56.324 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-11-30 23:29:56.347 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.h.c.SpellCheckComponent Registering newSearcher listener for spellchecker: default
+2021-11-30 23:29:56.354 INFO  (coreLoadExecutor-13-thread-1) [   x:mycore] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-11-30 23:29:56.376 INFO  (searcherExecutor-15-thread-1-processing-x:mycore) [   x:mycore] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-11-30 23:29:56.376 INFO  (searcherExecutor-15-thread-1-processing-x:mycore) [   x:mycore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-11-30 23:29:56.396 INFO  (searcherExecutor-15-thread-1-processing-x:mycore) [   x:mycore] o.a.s.c.SolrCore [mycore]  Registered new searcher autowarm time: 0 ms
+2021-11-30 23:32:05.814 INFO  (qtp1439632660-26) [   x:mycore] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.11.0
+2021-11-30 23:32:05.814 WARN  (qtp1439632660-26) [   x:mycore] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2021-11-30 23:32:05.828 INFO  (qtp1439632660-26) [   x:mycore] o.a.s.s.IndexSchema Schema name=default-config
+2021-11-30 23:32:05.914 INFO  (qtp1439632660-26) [   x:mycore] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-11-30 23:32:05.984 INFO  (qtp1439632660-26) [   x:mycore] o.a.s.c.CoreContainer Reloading SolrCore 'mycore' using configuration from instancedir /var/solr/data/mycore
+2021-11-30 23:32:06.014 INFO  (qtp1439632660-26) [   x:mycore] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.mycore' (registry 'solr.core.mycore') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@72cc7e6f
+2021-11-30 23:32:06.014 INFO  (qtp1439632660-26) [   ] o.a.s.c.SolrCore [[mycore] ] Opening new SolrCore at [/var/solr/data/mycore], dataDir=[/var/solr/data/mycore/data/]
+2021-11-30 23:32:06.068 INFO  (qtp1439632660-26) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-11-30 23:32:06.068 INFO  (qtp1439632660-26) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-11-30 23:32:06.075 INFO  (qtp1439632660-26) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /var/solr/data/mycore/conf
+2021-11-30 23:32:06.076 INFO  (qtp1439632660-26) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-11-30 23:32:06.087 INFO  (qtp1439632660-26) [   ] o.a.s.h.c.SpellCheckComponent Registering newSearcher listener for spellchecker: default
+2021-11-30 23:32:06.087 INFO  (qtp1439632660-26) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2021-11-30 23:32:06.105 INFO  (searcherExecutor-21-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-11-30 23:32:06.105 INFO  (searcherExecutor-21-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-11-30 23:32:06.125 INFO  (searcherExecutor-21-thread-1) [   ] o.a.s.c.SolrCore [mycore]  Registered new searcher autowarm time: 0 ms
+2021-11-30 23:32:06.138 INFO  (qtp1439632660-26) [   ] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2021-11-30 23:32:06.169 INFO  (qtp1439632660-26) [   ] o.a.s.c.SolrCore [mycore]  CLOSING SolrCore org.apache.solr.core.SolrCore@60c4e31c
+2021-11-30 23:32:06.169 INFO  (qtp1439632660-26) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.mycore tag=SolrCore@60c4e31c
+2021-11-30 23:32:06.170 INFO  (qtp1439632660-26) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@784ea2b7: rootName = null, domain = solr.core.mycore, service url = null, agent id = null] for registry solr.core.mycore/com.codahale.metrics.MetricRegistry@123a7bc9
+2021-11-30 23:32:06.174 INFO  (searcherExecutor-21-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-11-30 23:32:06.174 INFO  (searcherExecutor-21-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Building spell index for spell checker: default
+2021-11-30 23:32:06.180 INFO  (qtp1439632660-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=mycore&action=RELOAD} status=0 QTime=385
+2021-11-30 23:32:06.387 INFO  (searcherExecutor-21-thread-1) [   ] o.a.s.c.SolrCore [mycore]  Registered new searcher autowarm time: 5 ms
+2021-11-30 23:32:23.207 INFO  (qtp1439632660-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1638314663910} status=0 QTime=0
+2021-11-30 23:32:23.216 INFO  (qtp1439632660-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1638314663910} status=0 QTime=9
+2021-11-30 23:32:23.218 INFO  (qtp1439632660-45) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1638314663952} status=0 QTime=10
+2021-11-30 23:32:30.940 INFO  (qtp1439632660-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1638314663910} status=0 QTime=0
+2021-11-30 23:32:30.942 INFO  (qtp1439632660-22) [   x:mycore] o.a.s.c.PluginBag Going to create a new requestHandler with {type = requestHandler,name = /analysis/field,class = solr.FieldAnalysisRequestHandler,attributes = {class=solr.FieldAnalysisRequestHandler, startup=lazy, useParams=_ANALYSIS_FIELD, name=/analysis/field},args = {startup=lazy,useParams=_ANALYSIS_FIELD}} 
+2021-11-30 23:32:30.944 INFO  (qtp1439632660-19) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1638314663952} status=0 QTime=3
+2021-11-30 23:32:30.947 INFO  (qtp1439632660-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1638314663910} status=0 QTime=6
+2021-11-30 23:32:30.963 INFO  (qtp1439632660-22) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/analysis/field params={analysis.fieldname=_fullsearch_&analysis.showmatch=true&verbose_output=1&analysis.query=queso&wt=json&_=1638314663952} status=0 QTime=21
+2021-11-30 23:33:03.885 INFO  (qtp1439632660-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1638314663910} status=0 QTime=0
+2021-11-30 23:33:03.890 INFO  (qtp1439632660-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1638314663910} status=0 QTime=4
+2021-11-30 23:33:14.701 INFO  (qtp1439632660-18) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/select params={q=queso&defType=edismax&qf=_title_^20.0+_text_^0.3&fl=score&fl=*&rows=200} hits=7 status=0 QTime=61
