@@ -10,6 +10,7 @@ import unidecode
 import uvicorn
 from fastapi import FastAPI
 from pydantic import BaseModel
+from fastapi.openapi.models import Response
 
 solr_host = os.getenv("SOLR_HOST", "host.docker.internal")
 conf_path = os.getenv("CONF_PATH", "/mycore_config/conf/")
@@ -29,6 +30,7 @@ async def add_synonym_to_queue(word_list:list):
     try:
         unnaccented_words = [unidecode.unidecode(word) for word in word_list]
         update_queue.put(unnaccented_words)
+        return Response(status_code=201)
     except:
         return []
 
