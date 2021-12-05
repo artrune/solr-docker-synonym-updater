@@ -1,0 +1,5 @@
+[2021-12-05T22:50:01.129+0000][0.006s] Heap region size: 1M
+[2021-12-05T22:50:01.286+0000][0.163s] Using G1
+[2021-12-05T22:50:01.286+0000][0.163s] Heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: 32-bit
+[2021-12-05T22:50:01.287+0000][0.163s] Mark closed archive regions in map: [0x00000000fff00000, 0x00000000fff63ff8]
+[2021-12-05T22:50:01.287+0000][0.164s] Mark open archive regions in map: [0x00000000ffe00000, 0x00000000ffe41ff8]
